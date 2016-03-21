@@ -5,20 +5,24 @@ original documentation of the source data is included in the file CodeBook.md, d
 how the data were collected and processed before I began working with the data.
 
 The data contains the following features of interest for this project:
-Subjects:
-30 individuals
-Activities: 
-6 - Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying
-Variables:
-561 variables (features) per observation - based on detecting the motion of smartphones
+
+Subjects: 30 individuals
+
+Activities: 6 - Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying
+
+Variables: 561 variables (features) per observation - based on detecting the motion of smartphones
 
 For the class project, we were asked to
-1. Merge the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each  measurement.
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names.
-5. From the data set in step 4, creates a second, independent tidy data set with the
-   average of each variable for each activity and each subject.
+
+*1. Merge the training and the test sets to create one data set.
+
+*2. Extract only the measurements on the mean and standard deviation for each measurement.
+
+*3. Use descriptive activity names to name the activities in the data set
+
+*4. Appropriately label the data set with descriptive variable names.
+
+*5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 For this project I created two scripts, downloading.R and run_analysis.R.  The downloading.R
 only downloads the data.  It isn't really necessary, but it is considered good practice to
